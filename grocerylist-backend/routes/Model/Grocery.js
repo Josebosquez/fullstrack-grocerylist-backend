@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const grocerySchema = new mongoose.Schema({
     grocery: {
-        type: String, 
+        type: String,
     },
     purchased: {
         type: Boolean,
